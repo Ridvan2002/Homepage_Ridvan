@@ -1,0 +1,149 @@
+body {
+
+background-image: url('Background.jpg');
+background-attachment: fixed;
+background-size: cover;
+font-family: sans-serif;
+}
+
+.center_text {
+    text-align: center;
+}
+
+bold {
+    color: Purple;
+	font-size: 26px;
+    font-weight: bold;
+}
+
+#header {
+	
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 5px;
+	border-style: solid ;
+	border-color: red ;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+}
+
+h3 {
+    color: white;
+}
+
+#column_left {
+    background-color: lightblue;
+    border: 5px;
+    height: 800px;
+    width: 300px;
+    float: left;
+	border-style: solid ;
+	border-color: red ;
+}
+
+
+p {
+    color: black;
+	font-weight: bold;
+}
+
+
+
+li {
+    color: Purple;
+    font-size: 20px;
+	margin-left: 10px;
+}
+
+
+#resume {
+    padding-top: 10px;
+}
+
+table {
+    width: 80%;
+    height: 300px;
+    margin-left: 22%;
+	margin-top: 10%;
+    
+}
+
+
+tr {
+    text-align: center;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: red;
+}
+
+tr:nth-child(even){
+    background-color: lightblue;
+}
+
+#table_head {
+	
+    height: 20px;
+}
+
+td {
+    height: 10px;
+}
+
+th {
+    width: 33.3%;
+}
+
+
+#quote_div {
+   
+    margin-top: 15%;
+    width: 300px;
+    height: 100px;
+}
+
+#quote {
+    color: purple;
+    font-size: 26px;
+    font-family: sans-serif;
+	font-weight: bold;
+}
+
+#hobby_container {
+    background-color: lightblue;
+    border: 5px;
+    width: 53%;
+    height: 20em;
+    margin-left: 25em;
+    margin-top: 1em;
+	border-style: solid ;
+	border-color: red ;
+	margin-bottom: 15%;
+}
+
+#hobbies_div {
+    float: left;
+    width: 49.5%;
+}
+
+#hobbies_head {
+    margin-left: 7em;
+}
+
+#album_head {
+    margin-left: 6em;
+}
+
+
+#album_div {
+    float: right;
+    width: 50%;
+    height: 100%;
+    border-left: 3px groove white;
+}
